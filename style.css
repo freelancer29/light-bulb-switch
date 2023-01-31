@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+body {
+    font-size: 15pt;
+    background-color: black;
+}
+
+#off_image {
+  height: 650px;
+  width: 500px;
+}
+#on, #off {
+  width: 5rem;
+  height: 5rem;
+  background-color: red;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+.button_container {
+  background-color: white;
+  max-width: 8rem;
+  height: 12rem;
+  padding: 14px 22px;
+  border-radius: 0.4rem;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#off:hover, #on:hover {
+  background: darkred;
+}
